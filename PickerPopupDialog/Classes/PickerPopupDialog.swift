@@ -137,7 +137,7 @@ public class PickerPopupDialog: UIView,UIPickerViewDataSource, UIPickerViewDeleg
         selectedValue = self.pickerValues[0]
     }
     
-    func selectRow(_ row: Int) {
+    public func selectRow(_ row: Int) {
         
         self.selectedValue = self.pickerValues[row]
         
