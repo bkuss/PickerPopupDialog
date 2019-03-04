@@ -30,7 +30,7 @@ public class PickerPopupDialog: UIView,UIPickerViewDataSource, UIPickerViewDeleg
     /* Text Styling */
     fileprivate let titleLabelColor: UIColor = UIColor.darkGray
     fileprivate let doneButtonColor: UIColor = UIView().tintColor
-    fileprivate let cancelButtonColor: UIColor = UIColor.red
+    fileprivate let cancelButtonColor: UIColor = UIView().tintColor
     fileprivate let titleLabelFont:  UIFont = UIFont.systemFont(ofSize: 16)
     fileprivate let doneButtonFont:  UIFont = UIFont.systemFont(ofSize: 15)
     fileprivate let cancelButtonFont:  UIFont = UIFont.systemFont(ofSize: 14)
